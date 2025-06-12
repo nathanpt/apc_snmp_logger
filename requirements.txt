@@ -1,0 +1,12 @@
+# -----------------------------------------------------------------------------
+# Python Requirements for APC SNMP Logger Script
+# -----------------------------------------------------------------------------
+# This file lists the specific Python packages needed to run the script.
+# Use this file to install the exact working versions in a new environment:
+# pip install -r requirements.txt
+
+# Compatible Python Version: 3.10.x
+# Core SNMP library. Version 4.x is required for compatibility with the script's hlapi import syntax. Newer versions (5.x+) have breaking changes.
+pysnmp==4.4.12
+# A dependency of pysnmp. The older pysnmp==4.4.12 requires an older version of pyasn1 (0.4.x) to function correctly.
+pyasn1==0.4.8
