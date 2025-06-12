@@ -1,7 +1,3 @@
-Here is your reformatted content in **Markdown**:
-
----
-
 # APC UPS SNMP Logger
 
 A simple and efficient Python script for logging key metrics from an APC Uninterruptible Power Supply (UPS) via the SNMP protocol. The data is saved to a `ups_log.csv` file for easy analysis in a spreadsheet application.
@@ -118,5 +114,3 @@ You can open this file with any spreadsheet application like:
 * Google Sheets
 
 to analyze the data and create graphs.
-
----
